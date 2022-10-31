@@ -38,15 +38,27 @@ public class MethodOverloading
         // Printing multiplication of 2 integer numbers.
         System.out.println
                 (
-                    "Multiplication of 2 integer numbers -> "
+                    "Multiplication of 2 integer numbers: 2 and 4 = "
                         + Multiply.multiplyTwoNumbers (2, 4)
+                );
+
+        System.out.println
+                (
+                        "Multiplication of 2 integer numbers: 3 and 9 = "
+                                + Multiply.multiplyTwoNumbers (3, 9)
                 );
 
         // Printing multiplication of 2 double numbers.
         System.out.println
                 (
-                    "Multiplication of 2 double numbers -> "
+                    "Multiplication of 2 double numbers: 5.5 and 6.3 = "
                         + Multiply.multiplyTwoNumbers (5.5, 6.3)
+                );
+
+        System.out.println
+                (
+                        "Multiplication of 2 double numbers: 10.2 and 2.4 = "
+                                + Multiply.multiplyTwoNumbers (10.2, 2.4)
                 );
 
     }   // End of execution thread.
